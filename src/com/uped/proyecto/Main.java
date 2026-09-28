@@ -18,14 +18,20 @@ public class Main {
        .conGrafico() 
        .build(); 
         System.out.println(config); 
-  arrito carrito = new Carrito(); 
-carrito.agregar("Café"); 
-carrito.agregar("Azúcar"); 
-carrito.getItems().clear(); // solo modifica la copia 
-System.out.println("Items en el carrito: " + carrito.getItems().size()); 
+       Carrito carrito = new Carrito(); 
+       carrito.agregar("Café"); 
+       carrito.agregar("Azúcar"); 
+       carrito.getItems().clear(); // solo modifica la copia 
+       System.out.println("Items en el carrito: " + carrito.getItems().size());   
+       Empleado empleado = new Empleado("04512378-9", "Analista"); 
+       System.out.println(empleado); 
+       empleado.ascender("Analista Senior"); 
+       System.out.println(empleado); 
+        Punto original = new Punto(2, 3); 
+        Punto movido = original.mover(1, 1); 
+        System.out.println("Original: " + original); 
+        System.out.println("Movido: " + movido); 
 
 
-
-
-    }
+    }   
 }
