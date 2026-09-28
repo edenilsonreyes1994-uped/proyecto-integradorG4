@@ -34,4 +34,10 @@ public class Suscripcion {
         return "Suscripcion{usuario='" + usuario + "', plan='" + plan 
             + "', inicio=" + inicio + ", meses=" + meses + "}"; 
     } 
+    public static Suscripcion gratuita(String usuario) { 
+    return new Suscripcion(usuario, "GRATIS"); 
+    } 
+   public static Suscripcion premium(String usuario) { 
+   return new Suscripcion(usuario, "PREMIUM"); 
+  } 
 }

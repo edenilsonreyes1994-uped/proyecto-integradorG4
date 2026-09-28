@@ -37,4 +37,4 @@ public class ConfiguracionReporte {
             + "', incluirGrafico=" + incluirGrafico 
             + ", formato='" + formato + "'}"; 
     } 
-} 
+}
