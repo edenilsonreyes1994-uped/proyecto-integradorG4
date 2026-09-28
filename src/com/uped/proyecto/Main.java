@@ -31,6 +31,8 @@ public class Main {
         Punto movido = original.mover(1, 1); 
         System.out.println("Original: " + original); 
         System.out.println("Movido: " + movido); 
+        Vehiculo vehiculo = new Vehiculo("N123-456", "Toyota"); 
+        System.out.println(vehiculo); 
 
 
     }   
