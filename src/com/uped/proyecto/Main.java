@@ -34,6 +34,11 @@ public class Main {
         Vehiculo vehiculo = new Vehiculo("N123-456", "Toyota"); 
         System.out.println(vehiculo); 
         new Registro(); 
+        Vehiculo v1 = Vehiculo.nuevo("P123-789", "Kia"); 
+        System.out.println(v1); 
+        v1.recorrer(150); 
+        System.out.println(v1); 
+     v1.recorrer(-20); 
 
     }   
 }   
