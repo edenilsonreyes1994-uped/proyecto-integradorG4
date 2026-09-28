@@ -33,7 +33,7 @@ public class Main {
         System.out.println("Movido: " + movido); 
         Vehiculo vehiculo = new Vehiculo("N123-456", "Toyota"); 
         System.out.println(vehiculo); 
-
+        new Registro(); 
 
     }   
-}
+}   
