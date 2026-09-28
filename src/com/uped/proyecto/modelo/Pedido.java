@@ -1,5 +1,4 @@
 package com.uped.proyecto.modelo; 
-  
 public class Pedido { 
     private int numero; 
     private double total = 0.0; 
@@ -18,4 +17,4 @@ public class Pedido {
     public int getNumero() { 
         return numero; 
     } 
-}
+} 
